@@ -1,0 +1,41 @@
+#include<iostream>
+using namespace std;
+main(){
+int num1,num2,num3,num4,num5,num6,num7,num8,num9,num10,num11,num12,num13,num14,num15,add5,mul5,sub5,final,final1;
+cout<<"number1: "<<endl;
+cin>>num1;
+cout<<"number2: "<<endl;
+cin>>num2;
+cout<<"number3: "<<endl;
+cin>>num3;
+cout<<"number4: "<<endl;
+cin>>num4;
+cout<<"number5: "<<endl;
+cin>>num5;
+cout<<"number6: "<<endl;
+cin>>num6;
+cout<<"number7: "<<endl;
+cin>>num7;
+cout<<"number8: "<<endl;
+cin>>num8;
+cout<<"number9: "<<endl;
+cin>>num9;
+cout<<"number10: "<<endl;
+cin>>num10;
+cout<<"number11: "<<endl;
+cin>>num11;
+cout<<"number12: "<<endl;
+cin>>num12;
+cout<<"number13: "<<endl;
+cin>>num13;
+cout<<"number14: "<<endl;
+cin>>num14;
+cout<<"number15: "<<endl;
+cin>>num15;
+add5=num1+num2+num3+num4+num5;
+mul5=num6*num7*num8*num9*num10;
+sub5=num11-num12-num13-num14-num15;
+final=(add5+mul5);
+final1=final-(sub5);
+cout<<"the final result is: "<<final1;
+}
